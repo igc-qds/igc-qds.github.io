@@ -1,8 +1,21 @@
 ---
-layout: default
+layout: splash
 ---
-
-{% for post in paginator.posts %}
+<div class="masthead ">
+  <div class="center">
+      <img src="{{ site.url }}/assets/imgs/LogoLettering.png" class="responsive">
+      <div class="menu">
+          <a href="{{ site.url }}/about/" >About</a>
+          <a href="{{ site.url }}/blog/" >Blog</a>
+          <a href="{{ site.url }}/projects/" >Projects</a>
+      </div>
+      <div class="news-container">
+          <h5>News</h5>
+          <small><b>01.02.2020</b>  QDS is now an official Service Unit at <a href="https://www.gulbenkian.pt/ciencia">IGC</a></small><br>
+      </div>
+  </div>
+</div>
+<!-- {% for post in paginator.posts %}
 <section>
   <h2>
     <a href='{{ site.url }}{{ post.url }}' title='{{ post.title }}'>
@@ -22,5 +35,5 @@ layout: default
 
 {% if paginator.next_page %}
 <a href='{{ site.url }}{{ paginator.next_page_path }}'>Next</a>
-{% endif %}
+{% endif %} -->
 

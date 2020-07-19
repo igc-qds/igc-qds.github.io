@@ -1,5 +1,5 @@
-name: "Jekyll true minimal theme"
-description: "Lightweight theme"
+name: "Quantitative & Digital Science"
+description: ""
 
 url: '' 
 baseurl: ''
@@ -11,11 +11,14 @@ highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    default_lang: python
 
+# this only paginates posts.
 plugins:
   - jekyll-paginate
 paginate: 10
-paginate_path: /page-:num
+paginate_path: blog/page-:num
 
 #disqus-id: your-disqus-id
 

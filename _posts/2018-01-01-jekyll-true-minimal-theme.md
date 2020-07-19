@@ -31,4 +31,5 @@ sub print_hello {
 
 print_hello;
 ```
-    
+# and this is some math
+$$ x^2 + y^3 $$
