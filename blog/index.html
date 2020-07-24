@@ -7,8 +7,15 @@ title: Archive
 <section class="post-list-item">
   <div class="post-item-title">
     <a href='{{ site.url }}{{ post.url }}' title='{{ post.title }}'>
-      <h4>{{ post.title }} <small>{{ post.excerpt | strip_html | truncate: 250 }}</small> </h4>
+      <h4>{{ post.title }}  </h4>
     </a>
+<!-- <p> -->
+<h4>
+<small>
+{{ post.excerpt | strip_html | truncate: 250 }}
+</small>
+</h4>
+</p>
   </div>
   
   <!-- <p class="post-item-excerpt">{{ post.excerpt | strip_html | truncate: 250 }}</p> -->

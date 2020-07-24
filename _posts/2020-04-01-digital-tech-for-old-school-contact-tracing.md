@@ -10,7 +10,6 @@ Ideally, everyone would keep a record of the people they were in contact with, s
 
 As [IGC](http://gulbenkian.pt/ciencia) was planning its reopening post-confinement, scientists and staff were encouraged to keep a contact log. To facilitate this, we developed a web app that enables quick and private contact logging. It is unimaginatively called [ *ContactLog* ](https://igc-qds.github.io/contactlog/). 
 
-*ContactLog* makes use of progressive web technologies to deliver a smooth and private experience. It saves all the data locally on your browser (using `localStorage`) and nothing gets communicated to a server (there is no server, beyind the instalation). It uses `serviceWorkers` to download all the files it needs to function, so that it works even if you have no internet access. 
-
+*ContactLog* makes use of progressive web technologies to deliver a smooth and private experience. It saves all the data locally on your browser (using `localStorage`) and nothing gets communicated to a server (there is no server, beyond the instalation). It uses `serviceWorkers` to download all the files it needs to function, so that it works even if you have no internet access. 
 
 Source code is [here](https://igc-qds.github.com/contactlog) and the deployed version is [here](https://igc-qds.github.io/contactlog/).
