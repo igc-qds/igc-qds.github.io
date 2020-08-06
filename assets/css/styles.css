@@ -8,9 +8,11 @@ body {
 }
 
 .masthead {
-    display: block;
+    /* display: block;
     margin: auto;
-    align-content: center;
+    align-content: center; */
+    display: grid;
+    place-items: center;
     width: 80%;/*this should be defined using media queries*/
     max-width: 500px;
 }
