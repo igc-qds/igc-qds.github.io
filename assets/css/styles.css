@@ -137,6 +137,36 @@ body {
     }
 }
 
+/* for cards*/
+/*use like
+    <div class="card yellow">
+      <h3>Title - Card 2</h3>
+      <p contenteditable>Long Description. Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      <div class=".card-visual blue"></div>
+    </div>
+*/
+
+
+.card-holder {
+    height: auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: space-between;
+  }
+
+.card-visual{
+        height: 100px;
+        width: 100%;
+}
+
+
 /* @media screen and (max-width: 600px) {
     .topnav a {display: none;}
     .topnav a.icon {
